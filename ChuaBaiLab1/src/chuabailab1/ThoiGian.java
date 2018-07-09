@@ -13,12 +13,13 @@ import java.util.Scanner;
  */
 public class ThoiGian {
 
-    public final int BANG_NHAU = 0;
-    public final int LON_HON = 1;
-    public final int NHO_HON = -1;
+    public static final int BANG_NHAU = 0;
+    public static final int LON_HON = 1;
+    public static final int NHO_HON = -1;
+    
+
     public final String STR_NHAP = "Nhap ngay thang nam";
-    
-    
+
     public int ngay;
     public int thang;
     public int nam;
