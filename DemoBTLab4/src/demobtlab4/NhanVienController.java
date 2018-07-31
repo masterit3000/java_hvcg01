@@ -28,7 +28,12 @@ public class NhanVienController {
             int chon = new Scanner(System.in).nextInt();
             switch (chon) {
                 case CONGNHAN:
-                    nhanViens[i] = new CongNhan();
+                    nhanViens[i] = new NhanVien() {
+                        @Override
+                        public float getThuNhap() {
+                            return 4f;
+                        }
+                    };
                 case QUANLY:
                     nhanViens[i] = new QuanLy();
                     break;
