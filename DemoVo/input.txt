@@ -1,4 +1,3 @@
 9
 9+4+61*6*2
-0 1 2 3 4  //chi so cua phan tu trong mangSo
- 0 1 2 3   //chi so cua phan tu trong mangToanTu
+5 6 7 7 7

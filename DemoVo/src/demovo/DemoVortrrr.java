@@ -17,7 +17,7 @@ import java.util.Stack;
  *
  * @author Admin
  */
-public class DemoVo {
+public class DemoVortrrr {
 
     /**
      * @param args the command line arguments
